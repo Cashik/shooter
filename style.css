@@ -1,0 +1,36 @@
+html{
+  height: 100%;
+}
+body{
+		margin: 0;
+		padding: 0;
+		height: 100%;
+		overflow: hidden;
+		
+}
+#canvas{
+    
+	background-color: #b2b0ff;
+    margin: auto;
+	width: 100%;
+    height: 100%;		
+}
+#FPS {
+    display: inline-block;
+    width: 70px; 
+    overflow: hidden;
+}
+
+.info {
+    position: absolute;
+    padding: 10px;
+    background-color: #eeff6d;
+    box-shadow: -5px -5px 20px black;
+}
+
+#MXY {
+    display: inline-block;
+    overflow: hidden;
+
+    width: 100px;
+}
